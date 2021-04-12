@@ -1,0 +1,41 @@
+.report-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-container {
+  color: #4e8236;
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  span {
+    margin: 0.5em;
+  }
+  .divider {
+    height: 90%;
+    width: 0.2rem;
+    background-color: #4e8236;
+  }
+}
+
+.discussion-points-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+
+  p {
+    font-weight: bold;
+  }
+
+  ul {
+  }
+}

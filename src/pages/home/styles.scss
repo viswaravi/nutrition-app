@@ -1,0 +1,29 @@
+.home-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.states-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  width: 30%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  padding: 2% 0 2% 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .state-name {
+    margin: 1em 0 0 1em;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    background-color: burlywood;
+  }
+}
